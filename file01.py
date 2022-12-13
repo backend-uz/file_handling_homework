@@ -1,4 +1,4 @@
-def main(data):
+def main(data:str):
     """
     The data is from the file. Return data as a list type.
     Args:
