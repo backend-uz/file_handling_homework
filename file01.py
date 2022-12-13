@@ -1,4 +1,4 @@
-def main(data:str):
+def main(data):
     """
     The data is from the file. Return data as a list type.
     Args:
@@ -6,9 +6,12 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    return data.split(',')
+    
+    ls = []
+    for i in data:
+        ls.append(i)
+    return ls
 
 f = open('txt_file/data01.txt')
-s = f.read()
-print(main(s))
 # Read data from file
+print(main(f))
