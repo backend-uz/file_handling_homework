@@ -7,9 +7,9 @@ def main(data):
         list: return answer
     """
     ls = []
-    for i in range(len(data)):
-        if data[i].isdigit():
-            ls.append(data[i])
+    for i in data:
+        if i.isdigit():
+            ls.append(i)
     return ls
 # Read data from file
 f = open('txt_file/data03.txt', 'r')
