@@ -6,14 +6,7 @@ def main(data):
     Returns:
         int: return answer
     """
-    # ls = []
-    # for i in data:
-    #     ls.append(i)
-    # j = ''.join(ls)
-    # # c = j.count()
-    # return j
-    r = data.replace("\n", " ")
-    c = len(r)
+    c = len(data)
     return c
 # Read data from file
 f = open('txt_file/data02.txt', 'r')
