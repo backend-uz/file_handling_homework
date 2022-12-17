@@ -8,10 +8,10 @@ def main(data:str):
     """
     mn = '0'
     for i in range(len(data)):
-        if data[i].isdigit:
+        if data[i].isdigit():
             if data[i] < mn:
                 mn += data[i]
-    return mn
+    return int(mn)
             
 # Read data from file
 f = open('txt_file/data09.txt', 'r')
