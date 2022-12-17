@@ -16,5 +16,5 @@ def main(data):
     return mx
 # Read data from file
 f = open('txt_file/data08.txt', 'r')
-r = f.read()
+r = f.read() #ss
 print(main(r))
