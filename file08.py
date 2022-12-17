@@ -13,7 +13,7 @@ def main(data):
             if data[i] > mx:
                 mx = data[i]
         i += 1
-    return mx
+    return int(mx)
 # Read data from file
 f = open('txt_file/data08.txt', 'r')
 r = f.read() #ss
